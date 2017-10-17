@@ -34,12 +34,11 @@ header {
     .fz(font-size,46);
     transform: rotate(-180deg);
     &::before {
-      color:#333;
+      color:@cl;
     }
   }
+
 }
-
-
 </style>
 
 

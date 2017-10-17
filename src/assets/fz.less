@@ -1,3 +1,25 @@
+@cl:red;
+// 颜色定义规范
+@color-background: #fff;
+@color-background-d: rgba(0, 0, 0, 0.3);
+@color-highlight-background: #333;
+@color-dialog-background: #666;
+@color-theme: #ffcd32;
+@color-theme-d: rgba(255, 205, 49, 0.5);
+@color-sub-theme: #d93f30;
+@color-text: #fff;
+@color-text-d: rgba(255, 255, 255, 0.3);
+@color-text-l: rgba(255, 255, 255, 0.5);
+@color-text-ll: rgba(255, 255, 255, 0.8);
+
+//字体定义规范
+@font-size-small-s: 10px;
+@font-size-small: 12px;
+@font-size-medium: 14px;
+@font-size-medium-x: 16px;
+@font-size-large: 18px;
+@font-size-large-x: 22px;
+
 .fz(@name, @px){
     @{name}: round(@px / 2) * 1px;
     [data-dpr="2"] & {
@@ -16,9 +38,6 @@
         @{name}: @px * 2px;
     }
 }
-
-@cl:#FFAA00;
-
 
 //section距离上方的距离
 .pt() {
@@ -43,4 +62,34 @@
   border-bottom-color: rgba(185, 185, 185, .14);
   border-bottom-style: solid;
   .fz(border-bottom-width,1);
+}
+
+// 背景图片
+.bg-image(@url){
+  background-image: url("@{url}@2x.png");
+  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3){
+    background-image: url("@{url}@3x.png");
+  }
+}
+
+
+// 不换行
+.no-wrap(){
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+// 扩展点击区域
+.extend-click(){
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;  
+  }
 }
