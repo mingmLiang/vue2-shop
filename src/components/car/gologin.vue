@@ -29,7 +29,6 @@
     span:last-of-type {
       color: rgba(0, 0, 0, .54);
       position: relative;
-      .fz(font-size,26);
       padding-right: 2vw;
       &::after {
         content: "";

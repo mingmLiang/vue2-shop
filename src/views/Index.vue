@@ -59,9 +59,11 @@ export default {
 
 
 <style lang="less" scoped>
+@import '../assets/fz.less';
 .index {
     width: 100%;
     padding-bottom: 14vw;
     background-color: #F8FCFF;
+    font-size: @font-size-medium;
 }
 </style>

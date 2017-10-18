@@ -25,6 +25,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
+@import '../../assets/fz.less';
 .main {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -32,7 +33,7 @@ export default {
   height: 100%;
   &::-webkit-scrollbar {display:none}
   >h2 {
-    font-size: 24px;
+    font-size: @font-size-large-x;
     padding: 2vw 4vw;
     color:#333;
     letter-spacing: 2px;

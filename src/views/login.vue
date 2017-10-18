@@ -84,13 +84,14 @@ export default {
 </script>
 
 <style lang="less" scoped>
+@import '../assets/fz.less';
 .login {
   >section {
     .tip {
       padding: 6vw 3vw;
       color:rgb(224, 145, 71);
       letter-spacing: 2px;
-      font-size: 16px;
+      font-size: @font-size-medium-x;
     }
   }
 }

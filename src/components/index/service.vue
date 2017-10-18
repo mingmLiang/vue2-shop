@@ -32,11 +32,11 @@
         align-items: center;
         padding: 3.3vw 0;
         span {
-          .fz(font-size,28);
+          font-size: @font-size-large;
           padding-left: 1vw;
         }
         i {
-          .fz(font-size,36);
+          font-size: @font-size-large;
         }
       }
     }

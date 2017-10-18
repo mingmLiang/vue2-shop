@@ -28,6 +28,7 @@
 </script>
 
 <style lang="less" scoped>
+@import '../../assets/fz.less';
   .aside {
     flex: 2.2;
     height: 100%;
@@ -44,11 +45,11 @@
           display: block;
           padding: 4vw 0;
           position: relative;
-          font-size: 16px;
+          font-size: @font-size-medium-x;
         }
         .active {
           position: relative;
-          font-size: 22px;
+          font-size: @font-size-large-x;
           &::before {
             width: 3px;
             height: 28px;

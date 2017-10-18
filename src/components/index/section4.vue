@@ -38,7 +38,7 @@ import { Lazyload } from 'mint-ui';
     .section4-title {
       .bt();
       text-align: center;
-      .fz(font-size, 40);
+      font-size: @font-size-large;
       padding: 4vw 0;
       position: relative;
       background-color: #ffffff;
@@ -46,7 +46,7 @@ import { Lazyload } from 'mint-ui';
         position: absolute;
         right: 6vw;
         top: 50%;
-        .fz(font-size, 36);
+        font-size: @font-size-large;
         .fz(margin-top,-16);
         &::before {
           color: #9f9f9f;
@@ -96,7 +96,7 @@ import { Lazyload } from 'mint-ui';
 
         >h3 {
           padding-top: 3vw;
-          .fz(font-size,40);
+          font-size: @font-size-large-x;
         }
         >span {
           display: inline-block;

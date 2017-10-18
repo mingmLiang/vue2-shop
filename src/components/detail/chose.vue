@@ -82,7 +82,7 @@ export default {
 
     .chose-view {
         > h1 {
-            .fz(font-size,36);
+            font-size: @font-size-large-x;
             color: #2c3e50;
             > span {
                 color: rgb(238, 113, 80);
@@ -91,7 +91,7 @@ export default {
         > span {
             line-height: 10vw;
             color: @cl;
-            .fz(font-size,34);
+            font-size: @font-size-large-x;
             font-weight: 600;
         }
 
@@ -108,7 +108,7 @@ export default {
             display: flex;
 
             span {
-                .fz(font-size,26);
+                font-size: @font-size-large;
                 padding: 6px 10px;
                 border: 1px solid rgb(111, 111,111);
                 margin-right: 6vw;
@@ -156,7 +156,7 @@ export default {
             .fz(border-right-width,1);
 
             i {
-                .fz(font-size,45);
+                font-size: @font-size-large-x;
             }
             &:active {
                 background-color: #f1f1f1;
@@ -181,13 +181,13 @@ export default {
                 background-color: @cl;
                 border-radius: 50%;
                 color: #fff;
-                .fz(font-size,24);
+                font-size: @font-size-large;
             }
             &:active {
                 background-color: #f1f1f1;
             }
             i {
-                .fz(font-size,48);
+                font-size: @font-size-large-x;
             }
         }
 

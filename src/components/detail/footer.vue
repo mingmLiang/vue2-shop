@@ -109,7 +109,7 @@ export default {
     .fz(border-right-width,1);
 
     i {
-      .fz(font-size,45);
+      font-size: @font-size-large-x;
     }
     &:active {
       background-color: #f1f1f1;
@@ -135,14 +135,14 @@ export default {
       background-color: @cl;
       border-radius: 50%;
       color: #fff;
-      .fz(font-size,24);
+      font-size: @font-size-large;
     }
 
     &:active {
       background-color: #f1f1f1;
     }
     i {
-      .fz(font-size,48);
+      font-size: @font-size-large-x;
     }
   }
 

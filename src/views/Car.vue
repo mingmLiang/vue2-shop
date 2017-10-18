@@ -47,8 +47,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
+@import '../assets/fz.less';
 .car {
   width: 100%;
   padding-bottom: 14vw;
+  font-size: @font-size-medium;
 }
 </style>

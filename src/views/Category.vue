@@ -40,12 +40,14 @@ export default {
 </script>
 
 <style lang="less" scoped>
+@import '../assets/fz.less';
   .wrap {
     width: 100%;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-size: @font-size-medium;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;

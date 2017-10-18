@@ -47,6 +47,20 @@
 
 <body ontouchstart="">
   <div id="app"></div>
+  <script>
+    // 改变html标签font-size,实现移动端适配
+    window.onload=function(){   
+      window.onresize=fzHtml;
+      function fzHtml(){
+          let fz= document.body.clientWidth/7.5;
+          if(fz>100){
+            fz=100;
+          }
+          document.getElementsByTagName('html')[0].setAttribute('style', 'font-size:'+fz+'px');
+      }
+      fzHtml();
+    } 
+  </script>
  </body>
 
 </html>

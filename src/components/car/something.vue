@@ -163,10 +163,8 @@ export default {
                     display: -webkit-box;
                     -webkit-line-clamp: 2;
                     -webkit-box-orient: vertical;
-                    .fz(font-size,26);
                 }
                 p:last-of-type {
-                    .fz(font-size,22);
                     color: rgb(168, 168, 168);
                 }
                 .something-right-bottom {
@@ -192,7 +190,7 @@ export default {
                             border: 0.2vw solid #f1f1f1;
                             border-radius: 1vw;
                             text-align: center;
-                            font-size: 20px;
+                            font-size: @font-size-large;
                             cursor: pointer;
                         }
                     }

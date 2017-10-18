@@ -19,6 +19,6 @@ export default {}
     padding: 6.8vw 4.8vw;
     background-color: #fff;
     color: #333!important;
-    .fz(font-size, 40)!important;
+    font-size: @font-size-large !important;
 }
 </style>

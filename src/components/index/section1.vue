@@ -36,7 +36,7 @@ import { Lazyload } from 'mint-ui';
       background-color: #ffffff;
       text-align: center;
       padding: 4vw 0;
-      .fz(font-size, 40);
+      font-size: @font-size-large-x;
       color: #333;
       position: relative;
 
@@ -44,7 +44,7 @@ import { Lazyload } from 'mint-ui';
         position: absolute;
         right: 6vw;
         top: 50%;
-        .fz(font-size, 36);
+        font-size: @font-size-large-x;
         .fz(margin-top,-16);
 
         &::before {

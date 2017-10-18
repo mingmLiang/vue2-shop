@@ -136,7 +136,7 @@ import { Lazyload } from 'mint-ui';
               color: #fff;
               border-radius: 0.5vw;
               background-color: #444;
-              .fz(font-size, 26);
+              font-size: @font-size-large;
               letter-spacing: 0.3vw;
             }
             .time-col {
@@ -145,12 +145,12 @@ import { Lazyload } from 'mint-ui';
               display: inline-block;
               text-align: center;
               font-weight: 700;
-              .fz(font-size, 30);
+              font-size: @font-size-large-x;
             }
           }
 
           .start {
-            .fz(font-size, 30);
+            font-size: @font-size-large-x;
             padding-top: 4vw;
             letter-spacing: 0.3vw;
           }
@@ -175,7 +175,7 @@ import { Lazyload } from 'mint-ui';
             right: .2vw;
             background-color: @cl;
             color: #fff;
-            .fz(font-size,24);
+            font-size: @font-size-large;
           }
         }
       }

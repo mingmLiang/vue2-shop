@@ -118,12 +118,13 @@
   @import '../assets/fz.less';
   @import '../assets/index/style.css';
   @import '../assets/user/icon/carstyle.css';
-
+  @import '../assets/fz.less';
 
   .car {
     width: 100%;
     padding-bottom: 14vw;
     background-color: #F8FCFF;
+    font-size: @font-size-medium;
     .header {
       width: 100%;
       height: 16vw;

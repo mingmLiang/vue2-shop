@@ -129,12 +129,12 @@ export default {
 
             p {
                 color: #868686;
-                .fz(font-size,32px);
+                font-size: @font-size-large-x;
             }
         }
 
         > p {
-            .fz(font-size,28px);
+            font-size: @font-size-large-x;
             color: #868686;
             padding-top: 30*10vw/75;
             letter-spacing: 3*10vw/75;
@@ -154,7 +154,7 @@ export default {
                 box-sizing: border-box;
                 padding: 20*10vw/75 30*10vw/75;
                 color: #4D4D4D;
-                .fz(font-size,30px);
+                font-size: @font-size-large-x;
                 border-bottom: 1*10vw/75 solid #DEDEDE;
 
                 > img {
@@ -177,7 +177,7 @@ export default {
 
                     p {
                         text-align: right;
-                        .fz(font-size,24px);
+                        font-size: @font-size-large-x;
                         padding-top: 1.4*10vw;
                     }
                 }
@@ -189,7 +189,7 @@ export default {
         text-align: right;
         margin-top: 6vw;
         padding: 4vw 5vw;
-        .fz(font-size,32px);
+        font-size: @font-size-large-x;
         color: #999999;
         background-color: #fff;
         i,
@@ -210,7 +210,7 @@ export default {
             background-color: #fd729c;
             border-radius: 1.3vw;
             color: #fff;
-            font-size: 17px;
+            font-size: @font-size-medium;
             padding: 4vw;
             margin: 0 auto;
             text-align: center;
@@ -227,7 +227,7 @@ export default {
         text-align: center;
         color: #fff;
         line-height: 30px;
-        .fz(font-size,40);
+        font-size: @font-size-large-x;
     }
 }
 </style>

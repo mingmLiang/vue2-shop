@@ -94,7 +94,6 @@ export default {
 
     .footer-result {
       p {
-        .fz(font-size,24);
         color: #999;
       }
 
@@ -103,7 +102,6 @@ export default {
         padding: 1vw 0 0 1vw;
         span {
           color:@cl;
-          .fz(font-size,42);
         }
       }
     }

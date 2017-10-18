@@ -66,7 +66,7 @@ import { Lazyload } from 'mint-ui';
           text-overflow: ellipsis;
         }
         h2 {
-          .fz(font-size, 32);
+          font-size: @font-size-large-x;
           padding-top: 3vw;
           color: #333;
         }
