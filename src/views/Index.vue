@@ -47,7 +47,6 @@ export default {
       method: 'post',
       url: '/index'
     }).then((response) => {
-      console.log(response);
       this.datas = response.data;
     }).catch(function(error) {
       alert(error)

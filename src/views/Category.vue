@@ -32,6 +32,7 @@ export default {
       url:'/category'
     }).then((res)=>{
       this.allData = res.data;
+      console.log('hi',res.data);
     }).catch((error)=>{
       console.log(error);
     })
