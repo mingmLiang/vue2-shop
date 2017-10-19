@@ -14,15 +14,23 @@
   <router-link :to="{ name: '详情页'}"  class="section1-banner">
     <img v-lazy="section1.banner" v-if='section1'>
   </router-link>
+  <!-- <grid>
+  <grid-item label="Grid" v-for="i in 9">
+    <img slot="icon" src="../assets/grid_icon.png">
+  </grid-item>
+</grid> -->
   </section>
 </template>
 
 <script>
 import { Lazyload } from 'mint-ui';
-
   export default {
-    props:['section1']
+    props:['section1'],
+    beforeCreate() {
+
+    }
   }
+
 
 </script>
 

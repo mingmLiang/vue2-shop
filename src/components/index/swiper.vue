@@ -21,7 +21,10 @@ export default {
 
 .mint-swipe {
   width: 100%;
-  height:50vw;
+  height:4rem;
+  max-height: 400px;
+  max-width: 750px;
+  margin: 0 auto;
   a,img {
     display: block;
     width: 100%;

@@ -16,7 +16,8 @@ export default {}
 @import '../../assets/fz.less';
 @import '../../assets/index/style.css';
 .mint-header {
-    padding: 6.8vw 4.8vw;
+    height: .97rem;
+    max-height: 97px;
     background-color: #fff;
     color: #333!important;
     font-size: @font-size-large !important;

@@ -51,7 +51,14 @@ export default {
     }).catch(function(error) {
       alert(error)
     })
-  }
+  },
+  mounted: function () {
+  this.$nextTick(function () {
+    // Code that will run only after the
+    // entire view has been rendered
+    console.log($('.index')[0]);
+  })
+}
 }
 </script>
 
